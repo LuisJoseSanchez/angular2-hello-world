@@ -6,14 +6,11 @@ import {Component} from '@angular/core'
   providers: [],
   template: `
     <div>
-      <h2>Hello {{name}}</h2>
-      
+      <h2>Hello world</h2>
     </div>
   `,
   directives: []
 })
 export class App {
-  constructor() {
-    this.name = 'Angular2 (Release Candidate!)'
-  }
+
 }
